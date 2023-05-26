@@ -22,10 +22,13 @@
         <div id="divDatosMaster" class="card text-white bg-dark">
             <div class="card-header d-flex">
                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active btn-dark" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Información</button>
+                    <li class="nav-item mr-2" role="presentation">
+                      <button class="nav-link active btn-dark" id="pills-informacion-tab" data-toggle="pill" data-target="#pills-informacion" type="button" role="tab" aria-controls="pills-informacion" aria-selected="true">Información</button>
                     </li>
-                    <li class="nav-item mx-2" role="presentation">
+                    <li class="nav-item mr-2" role="presentation">
+                        <button class="nav-link btn-dark" id="pills-atributos-tab" data-toggle="pill" data-target="#pills-atributos" type="button" role="tab" aria-controls="pills-atributos" aria-selected="true">Atributos</button>
+                    </li>
+                    <li class="nav-item mr-2" role="presentation">
                       <button class="nav-link btn-dark" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Inventario</button>
                     </li>
                     <li class="nav-item" role="presentation">
@@ -34,17 +37,210 @@
                   </ul>
             </div>
 
-            <div class="card-body d-flex flex-column align-items-center">
+            <div class="card-body">
 
 
                 <div class="tab-content" id="pills-tabContent">
 
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="tab-pane fade show active" id="pills-informacion" role="tabpanel" aria-labelledby="pills-informacion-tab">
                         
-                        <div>
-                            <h1>AA</h1>
+                        <div class="d-flex">
+                            <div class="d-flex flex-column align-items-center">
+                                <p class="h5">Gimbli</p>
+                                <img id="imagenTarjetaJugador" class="rounded-circle" src="https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg"></img>
+                            </div>
+
+                            <div class="pl-5 d-flex  flex-column">
+                                <p class="h5">Historia</p>
+                                <span class="align-middle">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                                    id est laborum.
+                                </span>
+             
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="tab-pane fade" id="pills-atributos" role="tabpanel" aria-labelledby="pills-atributos-tab">
+                        
+
+                        <div class="ml-5 row">
+
+                            <div class="col-6">
+                                <p class="h5 mb-3">Atributos base</p>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Fuerza</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+3</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Destreza</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">-1</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Constitución</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Inteligencia</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">0</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Sabiduria</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">-2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Carisma</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <p class="h5 mb-3 mt-5">Tiradas de salvación</p>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Fuerza</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Destreza</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Constitución</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Inteligencia</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Sabiduría</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Carisma</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-6 habilidades">
+                                <p class="h5 mb-3">Habilidades</p>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Acrobacias</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+3</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Atletismo</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">-1</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">C. Arcano</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Engaño</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">0</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Historia</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">-2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Interpretación</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Intimidación</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Investigación</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Juego de Manos</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Medicina</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Percepción</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Naturaleza</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Perspicacia</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Persuasión</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Religión</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Sigilo</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">Supervivencia</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <p class="h6 col-6">T. con Animales</p>
+                                    <p class="h6 ml-2 atributo col-2 text-center">+2</p>
+                                </div>
+                                    
+                            </div>
+
+                            
+
                         </div>
                         
+
                     </div>
 
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -55,7 +251,7 @@
                         CCC
                     </div>
 
-                  </div>
+                </div>
 
             </div>
 

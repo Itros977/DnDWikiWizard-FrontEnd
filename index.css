@@ -2,3 +2,7 @@ body{
     background-color: #1c1c1c;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

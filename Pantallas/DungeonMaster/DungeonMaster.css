@@ -10,3 +10,15 @@
     height: 850px;
 }
 
+.atributo{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.habilidades div p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 2px;
+}
