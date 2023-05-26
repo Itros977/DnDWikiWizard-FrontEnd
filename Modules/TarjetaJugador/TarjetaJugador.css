@@ -13,3 +13,7 @@
 #divBarrasJugador{
     width: 100%;
 }
+
+.progress-bar{
+    text-shadow: 2px 2px 2px #838282;
+}
