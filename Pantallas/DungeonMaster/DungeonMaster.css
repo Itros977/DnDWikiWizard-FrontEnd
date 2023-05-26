@@ -22,3 +22,17 @@
     padding-bottom: 2px;
     margin: 2px;
 }
+
+#divSuperior{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#divListaJugadores{
+    margin-right: 0px !important;
+}
+
+#divInferior{
+    padding-left: 0px;
+}
+
