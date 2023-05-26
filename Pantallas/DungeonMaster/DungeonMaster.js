@@ -6,6 +6,11 @@ $( document ).ready(function() {
     const datosJugadores = [
         new Jugador("Gimbli", "Enano", "Tanque", "https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg", "66", "90", "80"),
         new Jugador("Légolas", "Elfo", "Distancia",  "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/220px-Legolas600ppx.jpg", "50", "75", "36"),
+        new Jugador("Aragorn", "Numenoreano", "Paladín",  "https://qph.cf2.quoracdn.net/main-qimg-cbade0d17806e258ac758c2e9dc5e3fb-pjlq", "19", "72", "43"),
+        new Jugador("Gimbli", "Enano", "Tanque", "https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg", "66", "90", "80"),
+        new Jugador("Légolas", "Elfo", "Distancia",  "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/220px-Legolas600ppx.jpg", "50", "75", "36"),
+        new Jugador("Aragorn", "Numenoreano", "Paladín",  "https://qph.cf2.quoracdn.net/main-qimg-cbade0d17806e258ac758c2e9dc5e3fb-pjlq", "19", "72", "43"),
+        new Jugador("Gimbli", "Enano", "Tanque", "https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg", "66", "90", "80"),
         new Jugador("Aragorn", "Numenoreano", "Paladín",  "https://qph.cf2.quoracdn.net/main-qimg-cbade0d17806e258ac758c2e9dc5e3fb-pjlq", "19", "72", "43")
       ];
 
