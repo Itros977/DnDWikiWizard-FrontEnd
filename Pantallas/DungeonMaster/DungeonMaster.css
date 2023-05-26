@@ -1,0 +1,15 @@
+#divPrincipal{
+    background-color: #1c1c1c;
+}
+
+#divSuperior{
+    height: 460px;
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid white;
+  }

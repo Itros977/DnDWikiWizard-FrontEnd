@@ -1,0 +1,15 @@
+#divTarjetaJugador{
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+#imagenTarjetaJugador{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+
+#divBarrasJugador{
+    width: 100%;
+}
