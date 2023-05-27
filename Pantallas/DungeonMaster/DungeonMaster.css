@@ -10,11 +10,29 @@
     height: 850px;
 }
 
+.divAtributoBase{
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 80px;
+}
+
+.atributoGrande{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.atributoPequeno{
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 11px;
+}
+
 .atributo{
     border: 1px solid white;
     border-radius: 8px;
-    padding: 3px;
-    margin: 3px;
+    width: 40px;
+    margin: 0px !important;
+    padding-top: 2px;
 }
 
 .habilidades div p{
