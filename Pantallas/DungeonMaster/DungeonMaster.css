@@ -10,8 +10,17 @@
     height: 850px;
 }
 
+.h5{
+    color: var(--colorPrincipal);
+}
+
+.h6{
+    color: var(--colorPrincipal);
+}
+
 .divAtributoBase{
-    border: 1px solid white;
+    border: 1px solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
     border-radius: 8px;
     width: 80px;
 }
@@ -28,7 +37,8 @@
 }
 
 .atributo{
-    border: 1px solid white;
+    border: 1px solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
     border-radius: 8px;
     width: 40px;
     margin: 0px !important;
