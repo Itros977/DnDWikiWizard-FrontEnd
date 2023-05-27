@@ -1,5 +1,6 @@
 class Jugador {
-  constructor(nombre, raza, rol, rutaFoto, hp, mana, xp, nivel) {
+  constructor(id, nombre, raza, rol, rutaFoto, hp, mana, xp, nivel) {
+    this.id = id;
     this.nombre = nombre;
     this.raza = raza;
     this.rol = rol;
