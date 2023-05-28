@@ -11,6 +11,7 @@ $( document ).ready(function() {
         var instancia = $(data).clone();
         $("#divMain").append(instancia);
         $('#divPrincipalJugadores').show();
+        //$('#divPrincipalJugadores').hide();
     });
 
 
@@ -18,6 +19,7 @@ $( document ).ready(function() {
     $.get("/Pantallas/Wiki/Wiki.html", function(data) {
         var instancia = $(data).clone();
         $("#divMain").append(instancia);
+        //$('#divPrincipalWiki').show();
         $('#divPrincipalWiki').hide();
     });
     
