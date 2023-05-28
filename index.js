@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
     
     //JUGADORES
-    $.get("/Pantallas/DungeonMaster/DungeonMaster.html", function(data) {
+    $.get("/Pantallas/PartidaJugadores/PartidaJugadores.html", function(data) {
         var instancia = $(data).clone();
         $("#divMain").append(instancia);
         $('#divPrincipalJugadores').show();
