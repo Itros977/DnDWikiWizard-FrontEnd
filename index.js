@@ -1,33 +1,26 @@
 
 $( document ).ready(function() {
 
-
-    
-
     //==============================
     //= INICIALIZACIÓN DE VENTANAS =
     //==============================
 
-    $('#divMain').hide();
     
     //JUGADORES
     $.get("/Pantallas/DungeonMaster/DungeonMaster.html", function(data) {
         var instancia = $(data).clone();
         $("#divMain").append(instancia);
+        $('#divPrincipalJugadores').show();
     });
 
-    $('#divPrincipalJugadores').show();
 
     //WIKI
     $.get("/Pantallas/Wiki/Wiki.html", function(data) {
         var instancia = $(data).clone();
         $("#divMain").append(instancia);
+        $('#divPrincipalWiki').hide();
     });
     
-    $('#divPrincipalWiki').hide();
-
-    $('#divMain').show();
-
 
 
     //=============================
