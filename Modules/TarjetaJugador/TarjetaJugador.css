@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     border: 2px solid #d1cfcf;
-    background-color: #3e424e;
+    background-color: var(--ColorFondoSecundario);
     text-shadow: 2px 2px 2px #353535;
 }
 

@@ -23,32 +23,45 @@
     color: var(--colorPrincipal);
     border-radius: 8px;
     width: 80px;
+    margin-bottom: 3px;
+    background-color: var(--ColorFondoSecundario);
 }
 
-.atributoGrande{
+.atributoBaseGrande{
+    font-size: 20px;
     margin: 0px !important;
-    padding: 0px !important;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
 }
 
-.atributoPequeno{
-    padding: 0px !important;
-    margin-bottom: 0px !important;
-    font-size: 11px;
+.atributoBasePequeno{
+    font-size: 13px;
+    
 }
 
-.atributo{
+.atributoSalvacion{
+    font-size: 20px;
     border: 1px solid var(--colorPrincipal);
     color: var(--colorPrincipal);
     border-radius: 8px;
     width: 40px;
-    margin: 0px !important;
-    padding-top: 2px;
+    background-color: var(--ColorFondoSecundario);
+    margin: 1px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
 }
 
-.habilidades div p{
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin: 2px;
+
+.atributoHabilidad {
+    font-size: 18px;
+    border: 1px solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
+    background-color: var(--ColorFondoSecundario);
+    border-radius: 8px;
+    width: 40px;
+    margin: 1px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
 }
 
 #divSuperior{
