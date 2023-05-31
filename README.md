@@ -1,6 +1,6 @@
 # D&D Wiki Wizard
 
-![D&D Wiki Wizard Logo](/path/to/logo.png)
+![D&D Wiki Wizard Logo](/TSA-Logo.png)
 
 > ¡Desata tu poder en el mundo de D&D!
 
