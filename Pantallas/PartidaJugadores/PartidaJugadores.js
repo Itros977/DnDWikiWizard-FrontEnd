@@ -88,9 +88,13 @@ function ActualizarDatos(){
 
 
     //TARJETA
+    $(".divTarjetaJugador").removeClass("jugadorSeleccionado");
+
     var tarjetaJugador = $(".divTarjetaJugador").filter(function() {
         return $(this).find("#idJugador").text() === jugador.id;
     });
+
+    tarjetaJugador.find("#idJugador").parent().addClass("jugadorSeleccionado");
 
     if(jugador.hp > 0){
         tarjetaJugador.find("#vidaTarjetaJugador").css("width", jugador.hp + "%");

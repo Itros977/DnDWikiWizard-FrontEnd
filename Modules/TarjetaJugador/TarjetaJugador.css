@@ -11,6 +11,10 @@
     cursor:pointer;
 }
 
+.jugadorSeleccionado{
+    background-color: #273242 !important;
+}
+
 #imagenTarjetaJugador{
     width: 150px;
     height: 150px;
