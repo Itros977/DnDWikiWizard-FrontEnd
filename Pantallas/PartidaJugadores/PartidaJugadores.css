@@ -18,6 +18,15 @@
     color: var(--colorPrincipal);
 }
 
+/* INFORMACIÓN */
+#imagenInformacionJugador{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+
+
+/* ATROBUTOS */
 .divAtributoBase{
     border: 1px solid var(--colorPrincipal);
     color: var(--colorPrincipal);
@@ -28,6 +37,7 @@
 }
 
 .atributoBaseGrande{
+    color: var(--colorPrincipal);
     font-size: 20px;
     margin: 0px !important;
     padding-top: 1px !important;
@@ -35,8 +45,8 @@
 }
 
 .atributoBasePequeno{
+    color: var(--colorPrincipal);
     font-size: 13px;
-    
 }
 
 .atributoSalvacion{
@@ -75,5 +85,30 @@
 
 #divInferior{
     padding-left: 0px;
+}
+
+
+/*INVENTARIO*/
+
+#divInventarioSuperior{
+    height: 420px;
+}
+
+
+#divInventarioInferior{
+    height: 300px;
+}
+
+#divInventarioSuperior div, #divInventarioInferior div {
+    height: 100%;
+    padding: 10px;
+}
+
+.divCuadradoInventario{
+    height: 100%;
+    border: 1px solid var(--colorPrincipal);
+    border-radius: 20px;
+
+
 }
 

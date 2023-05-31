@@ -18,6 +18,7 @@
     
     <div id="divInferior" class="col-5">
 
+        <p id="idJugadorSeleccionado" class="d-none"></p>
 
         <div id="divDatosMaster" class="card text-white bg-dark">
             <div class="card-header d-flex">
@@ -44,10 +45,10 @@
 
                     <div class="tab-pane fade show active" id="pills-informacion" role="tabpanel" aria-labelledby="pills-informacion-tab">
                         
-                        <div class="d-flex">
+                        <div class="d-flex mt-2">
                             <div class="d-flex flex-column align-items-center">
-                                <p class="h5">Gimbli</p>
-                                <img id="imagenTarjetaJugador" class="rounded-circle" src="https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg"></img>
+                                <p id="nombreInformacionJugador" class="h5">Gimbli</p>
+                                <img id="imagenInformacionJugador" class="rounded-circle" src="https://s2.ppllstatics.com/ideal/www/multimedia/201712/05/media/cortadas/gimli-ku9B-U50297969827dHF-624x385@Ideal.jpg"></img>
                             </div>
 
                             <div class="pl-5 d-flex  flex-column">
@@ -68,7 +69,7 @@
                         <br>
                         <br>
 
-                        <div class="d-flex mt-5">
+                        <div class="d-flex mt-2">
                             <div class="d-flex  flex-column">
                                 <p class="h5">Personalidad</p>
                                 <span class="align-middle text-justify">
@@ -314,11 +315,76 @@
                     </div>
 
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        Inventario
+                        
+                        <div class="d-flex mt-2 flex-column">
+
+                            <div id="divInventarioSuperior" class="row">
+
+                                <div class="col-6" style="">
+                                    <div class="divCuadradoInventario">
+                                        <h3>Objetos</h3>
+                                        <table id="tablaInventario" class="table table-striped table-dark">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Descripción</th>
+                                                <th scope="col">Cantidad</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Otto</td>
+                                                <td>2</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Thornton</td>
+                                                <td>5</td>
+                                              </tr>
+                                              <tr>
+                                                <td>the Bird</td>
+                                                <td>3</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+
+                                <div class="col-6" style="">
+                                    
+                                    <div class="divCuadradoInventario">
+                                        <h3>Armas</h3>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="divInventarioInferior" class="row">
+
+                                <div class="col-6" style="">
+                                    
+                                    <div class="divCuadradoInventario">
+                                        <h3>Dinero</h3>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6" style="">
+                                    
+                                    <div class="divCuadradoInventario">
+                                        <h3>Armadura</h3>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
                     </div>
 
                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        Acciones
+                        <button id="btnDanar10">Dañar 10</button>
+                        <button id="btnCurar10">Curar 10</button>
                     </div>
 
                 </div>

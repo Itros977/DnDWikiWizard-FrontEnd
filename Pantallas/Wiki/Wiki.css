@@ -76,7 +76,7 @@ a, a:hover, a:focus{
 
 #sidebar ul li a:hover{
     color:#fff;
-    background: #318fb5
+    background: #505769;
 
 }
 
@@ -116,7 +116,7 @@ ul.CTAs a{
 }
 
 a.download, a.download:hover{
-    background:#318fb5;
+    background:#363942;
     color:#fff
 }
 
